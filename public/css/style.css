@@ -1,0 +1,110 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-attachment: fixed;
+    background: url("/img/background.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+h1 {
+    color: #ff9d4d;
+    text-align: center;
+}
+
+form {
+    max-width: 200px;
+    margin: 0 auto;
+    background: rgba(204, 204, 204, 0.6);
+    padding: 50px;
+}
+
+label {
+    color: #543225;
+    font-size: 22px;
+}
+
+input {
+    margin: 5px 0 20px 0;
+    border: 0;
+    padding: 10px;
+}
+
+.login {
+    background: url("/img/login.png");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 52px;
+    border: 0;
+    color: transparent;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.login:hover {
+    transform: rotate(45deg);
+}
+
+.content {
+    max-width: 1024px;
+    margin: 0 auto;
+    ;
+}
+
+a.nav-link,
+nav a {
+    text-align: right;
+    display: block;
+    color: #ff9d4d;
+    text-decoration: none;
+}
+
+a.nav-link:hover,
+nav a:hover {
+    text-decoration: underline;
+}
+
+.register {
+    text-align: center;
+    display: block;
+    color: #ff9d4d;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.register:hover {
+    text-decoration: underline;
+}
+
+nav {
+    text-align: right;
+}
+
+#logout-form {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #cccccc;
+}
